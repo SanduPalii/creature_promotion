@@ -4,4 +4,23 @@
 @import 'libs';
 @import 'global';
 
+.main{
+    background: url('../img/background.png') center center/cover no-repeat;
+    position: relative;
+}
 
+.partner-slide{
+    padding-top: 73px;
+    &__box{
+        &__title{
+            text-align: center;
+        }
+        &__line{
+            height: 1px;
+            background-color: #DE6466;
+            width: 90px;
+            margin: 0 auto;
+            margin-top: 8px;
+        }
+    }
+}

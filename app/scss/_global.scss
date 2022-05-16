@@ -3,6 +3,14 @@ body {
 	height: 100%;
 }
 
+body{
+	font-family: 'sbc-font';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	color: #F3D5E4;
+}
+
 .wrapper {
 	display: flex;
 	flex-direction: column;
