@@ -3,8 +3,9 @@
 @import 'reset';
 @import 'libs';
 @import 'global';
+@import 'header';
 
-.main{
+body{
     background: url('../img/background.png') center center/cover no-repeat;
     position: relative;
 }

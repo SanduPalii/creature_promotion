@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 92px;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 58px;
+    right: 51px;
+    &__burgerBlock{             
+        &__circle{  
+            position: relative;                          
+            height: 67px;
+            width: 67px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.17);
+            box-shadow: inset 0px 4px 14px rgba(255, 255, 255, 0.04);
+            border-radius: 80px;
+            &__burger{
+                display: block;
+                position: absolute;
+                right: 17px;
+                top: 24px; 
+                span{
+                    display: block;
+                    height: 2px;
+                    width: 30px;
+                    margin-bottom: 6px;
+                    border-radius: 50px;
+                    background-color: #fff;
+                    top: 50%;
+                }
+            }                
+        }
+        
+    }
+}
