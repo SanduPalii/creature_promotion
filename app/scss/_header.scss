@@ -7,10 +7,15 @@
 .menu{
     display: flex;
     justify-content: flex-end;
+    align-content: space-between;
     align-items: center;
-    top: 58px;
-    right: 51px;
-    &__burgerBlock{             
+    margin-right: 51px;
+    margin-top: 58px;
+    &__flag{
+        margin-right: 17px;
+    }
+    &__burgerBlock{
+        margin-left: 22px;             
         &__circle{  
             position: relative;                          
             height: 67px;
